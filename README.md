@@ -1,2 +1,2 @@
-# project-1_Deepfake-detection
+# project-1_Deepfake-facial-image-detection
 Deepfake Detection
