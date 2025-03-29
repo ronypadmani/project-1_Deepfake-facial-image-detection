@@ -11,9 +11,6 @@ We implemented and compared the following deep learning architectures for DeepFa
 - **DenseNet-121**
 - **Custom CNN Architectures**
 
-For feature extraction, we used the final layer before classification to obtain feature vectors with dimensions of **512 (Custom CNN), 2048 (ResNet), and 1024 (DenseNet-121)**. To reduce dimensionality, we applied **Principal Component Analysis (PCA)** and retained **50 principal components** that captured the most variance in the data.
-
-For classification, we trained a **Support Vector Machine (SVM) with a polynomial kernel** on the extracted features. Additionally, we visualized the PCA-transformed data and observed distinct clustering patterns, indicating that the models successfully captured the differences between real and fake images.
 
 ## Future Work
 Future enhancements to this project include:
